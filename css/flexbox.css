@@ -3,14 +3,12 @@ body {
     justify-content: center
 }
 .main {
-    border: 2px solid magenta;
     display:flex;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
 }
 header, footer, section {
-    border: 2px solid cyan;
     display: flex;
     justify-content: space-around
 }
