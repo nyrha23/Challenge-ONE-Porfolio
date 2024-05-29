@@ -1,0 +1,178 @@
+body {
+    display: flex;
+    justify-content: center
+}
+.main {
+    border: 2px solid magenta;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+header, footer, section {
+    border: 2px solid cyan;
+    display: flex;
+    justify-content: space-around
+}
+
+.div-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+}
+
+/*HEADER*/
+.menu__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.menu__list {
+    display: flex;
+    gap: 0.5rem;
+}
+/*TITLE*/
+div.title__container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 1rem;
+}
+div.title__description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+ul.title__network {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+}
+/*ABOUT*/
+
+/*SKILLS*/
+.skills__line {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+}
+.skills__box ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+}
+#soft-skills .skills__container {
+    align-items: stretch;
+}
+#soft-skills .skills__icon {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*FORMACIÓN*/
+.academic__courses__list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 0.25rem;
+}
+.academic__courses {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+/*PROYECTOS*/
+div.experience__box{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+div.experience__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+div.experience__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+}
+/*CONTACTO*/
+form.formcontacto__form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 0.5rem;
+}
+/*FOOTER*/
+footer.piepagina{
+    align-items: center;
+}
+
+/*TABLET*/
+@media only screen and (max-width: 768px) {
+    /*Header*/
+    .menu__option{
+        display: none;
+        visibility: hidden;
+    }
+    /*Title*/
+    div.title__container{
+        display: flex;
+        flex-direction: column;
+    }
+    /*About*/
+
+    /*Skills*/
+
+    /*Formación*/
+
+    /*Proyectos*/
+
+    /*Contacto*/
+
+    /*Footer*/
+
+}
+
+/*MOBILE*/
+@media only screen and (max-width: 480px) {
+    /*Header*/
+    .menu__option{
+        display: none;
+        visibility: hidden;
+    }
+    /*Title*/
+    div.title__container{
+        display: flex;
+        flex-direction: column;
+    }
+    /*About*/
+
+    /*Skills*/
+
+    /*Formación*/
+
+    /*Proyectos*/
+
+    /*Contacto*/
+
+    /*Footer*/
+
+}
