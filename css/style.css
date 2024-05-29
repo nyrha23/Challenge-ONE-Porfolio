@@ -162,9 +162,7 @@ section.about{
     box-shadow: var(--c-orchid-light) 0 0 2rem;
     width: 100%;
 }
-img.about__signature{
-    width: 50%;
-}
+
 /*SKILLS*/
 div.skills__box{
     width: auto;
